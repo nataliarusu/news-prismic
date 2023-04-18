@@ -32,3 +32,6 @@ f. Back in your Prismic dashboard, paste the copied URL into the "URL to notify"
 2. Incremental Static Regeneration (ISR):
    In this project I used this method
    I added revalidate prop to getStaticProps()
+
+Deploying to Vercel
+https://vercel.com/docs/concepts/deployments/overview
