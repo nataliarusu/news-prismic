@@ -39,6 +39,7 @@ export async function getStaticProps({ params }) {
   ]);
   return {
     props: { page, menu },
+    revalidate: 60,
   };
 }
 
