@@ -11,10 +11,10 @@ export default function Home({ page, menu }) {
   return (
     <>
       <Navigation navigation={menu} />
-      <h1>
+      <h1 className="main">
         <PrismicText field={page.data.title} />
       </h1>
-      <div>
+      <div className="main">
         <PrismicRichText field={page.data.description} />
         <SliceZone slices={page.data.slices} components={components} />
       </div>
