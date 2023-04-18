@@ -1,0 +1,53 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading2",
+            "content": {
+              "text": "Wagon"
+            }
+          }
+        ]
+      },
+      "body": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Consectetur dolore in qui ullamco quis labore veniam non esse. Non officia nulla voluptate consequat eu non tempor fugiat."
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "buttonText",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "magic",
+              "type": "Text"
+            }
+          ],
+          [
+            "buttonLink",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "cast",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

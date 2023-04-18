@@ -1,0 +1,34 @@
+/* Block: section-bg */
+.section-bg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px; /* Adjust the height according to your needs */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: var(--text-color, white);
+}
+
+/* Element: content inside section-bg */
+.section-bg__content {
+  padding: 1rem;
+  background: linear-gradient(to top, rgb(0 0 0), #00000017);
+}
+/* Change the text color of the <a> tag inside section-bg__content using a CSS variable */
+.section-bg__content a {
+  color: var(
+    --link-color,
+    white
+  ); /* Fallback to white if the variable is not provided */
+  text-decoration: none;
+}
+
+/* Change the text color of the <a> tag on hover inside section-bg__content using a CSS variable */
+.section-bg__content a:hover {
+  color: var(
+    --link-hover-color,
+    lightgray
+  ); /* Fallback to lightgray if the variable is not provided */
+  text-decoration: underline;
+}

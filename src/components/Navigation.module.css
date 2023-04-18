@@ -1,0 +1,9 @@
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 4rem;
+  border-bottom: 2px solid #0f2250;
+  justify-content: end;
+  padding-right: 1rem;
+}

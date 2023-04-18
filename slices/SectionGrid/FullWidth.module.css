@@ -1,0 +1,11 @@
+.imgage-container {
+  max-width: 90vw;
+  height: 300px;
+}
+/* Element: image inside image-container */
+.image-container__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}

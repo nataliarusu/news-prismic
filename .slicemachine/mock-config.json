@@ -1,0 +1,45 @@
+{
+  "_cts": {
+    "navigation": {},
+    "page": {}
+  },
+  "slices": {
+    "NavigationItem": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Body": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Card": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "TopGrid": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "FullWidth": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "SectionGrid": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Article": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
+}
