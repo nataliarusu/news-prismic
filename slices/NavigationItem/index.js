@@ -1,6 +1,6 @@
 import React from "react";
 import { PrismicRichText } from "@prismicio/react";
-import { Navigation } from "@/components/Navigation";
+import { Navigation } from "../../src/components/Navigation";
 
 /**
  * @typedef {import("@prismicio/client").Content.NavigationItemSlice} NavigationItemSlice

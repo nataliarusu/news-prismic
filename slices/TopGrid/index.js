@@ -1,6 +1,6 @@
 import React from "react";
 import { PrismicRichText, PrismicLink } from "@prismicio/react";
-import PrismicImage from "@/components/PrismicImage";
+import PrismicImage from "../../src/components/PrismicImage";
 import classes from "../../src/styles/Home.module.css";
 /**
  * @typedef {import("@prismicio/client").Content.TopGridSlice} TopGridSlice

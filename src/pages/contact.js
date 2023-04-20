@@ -1,5 +1,5 @@
-import ContactForm from "@/components/ContactForm";
-import { Navigation } from "@/components/Navigation";
+import ContactForm from "../components/ContactForm";
+import { Navigation } from "../components/Navigation";
 import { createClient } from "../../prismicio";
 
 export default function Contact({ menu }) {

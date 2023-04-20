@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { PrismicLink, PrismicRichText } from "@prismicio/react";
-import SectionWithBackground from "@/components/SectionWithBackground";
+import SectionWithBackground from "../../src/components/SectionWithBackground";
 
 /**
  * @typedef {import("@prismicio/client").Content.FullWidthSlice} FullWidthSlice
