@@ -9,7 +9,6 @@ import SectionWithBackground from "@/components/SectionWithBackground";
  * @param { FullWidthProps }
  */
 const FullWidth = ({ slice }) => {
-  console.log(slice, " full Width");
   return (
     <SectionWithBackground image={slice.primary.image}>
       {slice.primary.title && slice.primary.titleLink ? (

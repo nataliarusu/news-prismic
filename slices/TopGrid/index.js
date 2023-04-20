@@ -8,7 +8,6 @@ import classes from "../../src/styles/Home.module.css";
  * @param { TopGridProps }
  */
 const TopGrid = ({ slice }) => {
-  console.log(slice, "TopGrid");
   return (
     <section>
       <span className="title">
