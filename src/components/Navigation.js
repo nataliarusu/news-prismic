@@ -34,6 +34,9 @@ export function Navigation({ navigation }) {
             </li>
           );
         })}
+        <li>
+          <Link href="/contact">Contact</Link>
+        </li>
       </ul>
     </nav>
   );

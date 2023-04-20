@@ -35,3 +35,13 @@ f. Back in your Prismic dashboard, paste the copied URL into the "URL to notify"
 
 Deploying to Vercel
 https://vercel.com/docs/concepts/deployments/overview
+
+//Send mail
+npm install nodemailer
+
+“Application Specific” => https://security.google.com/settings/security/apppasswords
+
+or
+go to https://myaccount.google.com/
+
+Security => 2-Step Verification => App passwords (at the bottom) => add => generate the app password => copy it => add it to .env.local EMAIL_PASSWORD instead

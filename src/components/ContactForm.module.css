@@ -1,0 +1,13 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+  gap: 0.3rem;
+}
+.flexItem {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 0.3rem;
+}

@@ -5,9 +5,6 @@ import { components } from "../../slices";
 import { Navigation } from "../components/Navigation";
 
 export default function Home({ page, menu }) {
-  console.log(page, " home");
-  console.log(menu, " menu");
-
   return (
     <>
       <Navigation navigation={menu} />
